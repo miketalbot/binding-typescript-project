@@ -1,0 +1,39 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# git 
+.git
+.gitignore
+
+# vsc code settings
+.vscode/
+
+# dependencies
+node_modules/
+
+# code
+src/
+
+# environment variables
+.env
+
+# unit tests coverage
+coverage/
+
+# scripts
+scripts/
+
+# others
+.npmignore
+
+package-lock.json
+yarn.lock
+
+jest.config.json
+tsconfig.json
+
+npm/
