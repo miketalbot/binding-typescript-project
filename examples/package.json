@@ -5,11 +5,15 @@
   "main": "src/index.tsx",
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "npm version patch && react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
   "dependencies": {
+    "@accordingly/events": "^1.0.3",
+    "@accordingly/databind": "^1.0.6",
+    "@accordingly/yup": "^1.0.6",
+    "@accordingly/bound": "^1.0.2",
     "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",
     "@mui/icons-material": "^5.14.14",
